@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820582654113",
+    "project_id": "cse489-b5e19",
+    "storage_bucket": "cse489-b5e19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820582654113:android:6a866be1604a49f04c50e0",
+        "android_client_info": {
+          "package_name": "cse489.project.doctorsappointmentapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiEfljSMCWPz1IBh-yNxj5BJzJvzC43FY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

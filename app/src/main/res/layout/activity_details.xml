@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/upperNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#673AB7">
+
+        <TextView
+            android:id="@+id/appointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Details"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="18dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/doctor_details"
+        android:layout_below="@+id/upperNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+
+        <ImageView
+            android:id="@+id/doctorImageView"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/doc"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DR. Roman Reigns"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:id="@+id/doctorInfoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Professor,\nRespiratory Medicine Department\nBangabandhu Sheikh Mujib Medical University (BSMMU) Medicine,\nPulmonologist and Sleep Medicine Specialist \nLabaid Specialized Hospital"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/specialityTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speciality"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/specialtyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="MBBS, FCCP, FRCP, Ph.D., FCPS\nFellow Pulmonology Slip Medical ICU (Singapore)\nProfessor, Respiratory Medicine Department\nMedicine, Pulmonotologist and Sleep medicine specialist\nlabaid specialized hospital"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:id="@+id/addressTextView"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="Address: 44/2, South Banasree, Rampura, Dhaka-1208"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-6dp"
+        android:background="#BA94FF"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:src="@drawable/baseline_home_24"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/appointmentBtn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:src="@drawable/baseline_form_view_24"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/history"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:src="@drawable/baseline_history_24"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
